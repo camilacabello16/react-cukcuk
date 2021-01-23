@@ -1,0 +1,453 @@
+﻿tbody tr{
+    cursor: pointer;
+}
+.wp-content-page {
+    width: 100%;
+    height: calc(100% - 60px);
+    padding-top: 5px;
+    position: relative;
+}
+.title-list {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wp-btn-add {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.wp-btn-add:hover{
+    background-color: #2FBE8E;
+    transition: 0.3s;
+}
+.wp-btn-add a {
+    /* display: inline-block; */
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 6px;
+}
+.wp-btn-add {
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+.title-list p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.input-search--txt input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    outline: none;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.input-search--txt input::placeholder{
+    font-size: 12px;
+}
+.input-search {
+    position: relative;
+}
+.input-search--icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+.input-search--icon img{
+    width: 100%;
+    height: 100%;
+}
+.refresh-icon {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    line-height: 51px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.wp-table-content {
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: scroll;
+    height: 500px;
+}
+.table-data tr {
+    border-bottom: 1px solid #bbbbbb;
+    height: 50px;
+}
+.table-data th {
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+}
+.table-data td {
+    border-bottom: 1px solid #e5e5e5;
+}
+.table-data tbody tr:hover {
+    background-color: #e5e5e5;
+}
+.table-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.pagination-number{
+    display: flex;
+    align-items: center;
+}
+.wp-pagi-nb {
+    display: flex;
+    align-items: center;
+}
+.pagi-nb {
+    width: 30px;
+    height: 30px;
+    background-color: #e5e5e5;
+    border-radius: 100px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 3px;
+}
+.pagi-num-active {
+    background-color: #019160;
+    color: #fff;
+}
+.customer-visible{
+    margin-left: 20px;
+}
+.customer-visible-last {
+    margin-right: 20px;
+}
+.arrow-back{
+    cursor: pointer;
+}
+.form-left {
+    width: 70%;
+    margin-right: 10px;
+}
+.form-right{
+    width: 30%;
+}
+.wp-form-info {
+    display: flex;
+}
+.ava-cus-img {
+    width: 150px;
+    border: 1px solid #bbbbbb;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+.ava-cus-img img {
+    width: 100%;
+    border-radius: 100px;
+}
+.wp-ava-cus {
+    display: flex;
+}
+.title-form-info {
+    font-size: 20px;
+    font-weight: 600;
+}
+.info-blank label {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.ava-cus-txt p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+.info-blank input {
+    border: 1px solid #bbbbbb;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.info-blank {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.ava-cus {
+    width: 50%;
+}
+.ava-cus-info {
+    flex: 1;
+}
+.info-blank p {
+    font-weight: bold;
+}
+.info-blank select {
+    border: 1px solid #bbbbbb;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.select-gender label {
+    font-weight: 100;
+}
+.select-gender {
+    margin-bottom: 22px;
+}
+.m-dialog {
+    position: absolute;
+    width: 700px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    margin-top: 10px;
+}
+.wp-btn-form {
+    background-color: #E9EBEE;
+    padding: 10px 0;  
+}
+.btn-form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn-form--btn button{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 0 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-save button {
+    background-color: #019160;
+    color: #fff;
+}
+.btn-cancel button{
+    background-color: #bbbbbb;
+}
+.btn-save{
+    margin-right: 10px;
+}
+.wp-table-content::-webkit-scrollbar {
+    width: 5px;
+}
+.wp-table-content::-webkit-scrollbar-thumb {
+    background: #BBBBBB;
+    border-radius: 10px;
+}
+.insert-opacity {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.4;
+    display: none;
+}
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.dialog-header p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.icon-close-dialog {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.icon-close-dialog svg {
+    width: 100%;
+    height: 100%;
+    color: #BBBBBB;
+}
+.wp-ava-img {
+    width: 20%;
+}
+.ava-img {
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-radius: 100px;
+}
+.ava-img img {
+    width: 100%;
+    border-radius: 100px;
+}
+.ava-txt {
+    text-align: center;
+}
+.line-green {
+    width: 80px;
+    height: 5px;
+    background-color: #01B075;
+}
+.dialog-body {
+    display: flex;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.wp-inp-content {
+    flex: 1;
+    margin-left: 15px;
+}
+.inp-content-title p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.inp-content-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-input-item {
+    display: flex;
+    flex-direction: column;
+}
+.reqiure-input{
+    color: red;
+}
+.content-input-item {
+    width: 50%;
+    margin-top: 10px;
+}
+.content-input-item input {
+    padding: 8px 0;
+    padding-left: 13px;
+    border: 1px solid #bbbbbb;
+    outline-color: #01B075;
+    width: 91%;
+}
+.content-input-item label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.content-input-item select {
+    padding: 8px 0;
+    padding-left: 13px;
+    border: 1px solid #bbbbbb;
+    outline-color: #01B075;
+    width: 97%;
+}
+.dialog-btn {
+    background-color: #E9EBEE;
+}
+.dialog-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.btn-submit {
+    border: none;
+    width: 80px;
+    height: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.btn-commit {
+    background-color: #019160;
+    color: #fff;
+}
+.btn-commit:hover{
+    background-color: #2FBE8E;
+    transition: 0.3s;
+}
+.btn-cancel:hover{
+    background-color: #BBBBBB;
+    transition: 0.3s;
+    color: #fff;
+}
+input[type="date"] {
+    height: 17px;
+}
+.display-form{
+    display: block;
+}
+.btnDeleteEmployee {
+    border: none;
+    background-color: #BBBBBB;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.insert-delete-notice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    display: none;
+}
+.delete-notice {
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#fff;
+    border: 1px solid #bbb;
+    display: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+.delete-notice__content p {
+    font-size: 17px;
+}
+.delete-notice__btn {
+    display: flex;
+}
+.open-notice-delete{
+    display: block!important;
+    z-index: 9;
+}
+.open-insert-delete{
+    display: block!important;
+    z-index: 8;
+}
+.error{
+    color: #F65454;
+}
+.wp-btn-cancel {
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.wp-btn-cancel:hover{
+    color: #fff;
+    background-color: #BBBBBB;
+    transition: 0.3s;
+}
